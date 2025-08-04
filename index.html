@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Studio Gabriel Luz</title>
+</head>
+<body>
+    <!-- Seção Cabeçalho -->
+    <header>
+        <h1>Studio Gabriel Luz</h1>
+        <p>Meu nome é Gabriel Luz, 
+         sou um fotógrafo apaixonado 
+         por capturar a essência das pessoas e dos momentos.</p>
+    </header>
+    <!-- Seção Sobre Mim -->
+     <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um fotógrafo profissional com mais de 10 anos de experiência. 
+           Minha paixão é contar histórias através das imagens, capturando emoções e momentos únicos.</p>
+    </section>
+    <!-- Seção Galeria -->
+     <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="galeria-imagens">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+            <img src="foto4.jpg" alt="Foto 4">
+        </div>
+    </section>
+    <!-- Seção Contato -->
+     <section id="contato">
+        <h2>Contato</h2>
+        <p>Para agendar uma sessão de fotos ou para mais informações, entre em contato:</p>
+        <form action="https://formsubmit.co/gabrieluz@email.com" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="mensagem" placeholder="Digite sua Mensagem" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+
+            <!-- Campo de Segurança -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://studiogabrieluz.com/obrigado.html">
+          </form>
+    </section>
+    <!-- Seção Rodapé -->
+     <footer>
+        <p>&copy; 2023 Studio Gabriel Luz. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Alisson Gomes Pedrosa</p>
+        </footer>
+</body>
+</html>

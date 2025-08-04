@@ -1,0 +1,101 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+} 
+
+header {
+    background-color: #007bff; /* azul vibrante */
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem; /* mas espaço para destaque */
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 960px;
+    margin: auto;
+    background: white;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color:#007bff; /* azul vibrante */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.galeria-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.galeria-imagens img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.galeria-imagens img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* azul mais escuro */
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #333;
+    color: white;
+}
+
